@@ -4,7 +4,7 @@ import { FaAward, FaWifi, FaWineGlass } from "react-icons/fa";
 
 export default function WhyChoiceUs() {
   return (
-    <section className="container my-10 mx-auto px-5">
+    <section className="container my-28 mx-auto px-5">
       <div className="flex items-center mb-20 justify-center">
         <h1 className="text-3xl font-bold text-brand-bg2 border-dashed border-b-2 border-brand-bg2 pb-2 px-3">
           Why You Should Choose Us

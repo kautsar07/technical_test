@@ -6,10 +6,10 @@ module.exports = {
   theme: {
     extend: { colors: {
       brand: {
-        bg1: "1c0c01",
-        bg2: "603322",
-        bg3: "FCE5B8",
-        bg4: "FAFAFA",
+        bg1: "#1c0c01",
+        bg2: "#603322",
+        bg3: "#FCE5B8",
+        bg4: "#FAFAFA",
       }
     }},
   },

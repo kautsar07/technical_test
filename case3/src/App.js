@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import Navbar from "./Components/Navbar";
+
 
 
 function App() {
   return (
    <div className='container mx-auto'>
-    <h1 className='text-xl'>Halooo</h1>
+    <Navbar/>
    </div>
   );
 }

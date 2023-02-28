@@ -1,6 +1,7 @@
 import Category from "./Components/Category";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import WhyChoiceUs from "./Components/WhyChoiceUs";
 
 
 
@@ -10,6 +11,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <Category/>
+    <WhyChoiceUs/>
    </div>
   );
 }

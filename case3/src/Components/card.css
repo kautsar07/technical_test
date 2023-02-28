@@ -1,0 +1,11 @@
+.card-img {
+  position: relative;
+}
+.all{
+    display: none;
+}
+.card-img:hover .all {
+  position: absolute;
+  top: 0;
+  display: block;
+}

@@ -23,8 +23,8 @@ export default function Hero() {
     },
   ];
   return (
-    <div>
-      <Carousel>
+    <section>
+      <Carousel autoplay>
         {content.map((item) => (
           <div className="flex w-full h-screen relative">
             <div className=" absolute top-1/2 left-20 text-brand-bg4">
@@ -39,6 +39,6 @@ export default function Hero() {
           </div>
         ))}
       </Carousel>
-    </div>
+    </section>
   );
 }

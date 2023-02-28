@@ -1,3 +1,4 @@
+import Blog from "./Components/Blog";
 import Category from "./Components/Category";
 import FavoriteMenu from "./Components/FavoriteMenu";
 import Hero from "./Components/Hero";
@@ -14,6 +15,7 @@ function App() {
     <Category/>
     <WhyChoiceUs/>
     <FavoriteMenu/>
+    <Blog/>
    </div>
   );
 }

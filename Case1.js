@@ -25,12 +25,6 @@ const fruits = [
     stock: 100,
   },
   {
-    fruitId: 3,
-    fruitName: "APEL",
-    fruitType: "IMPORT",
-    stock: 50,
-  },
-  {
     fruitId: 5,
     fruitName: "Jeruk Bali",
     fruitType: "LOCAL",
@@ -90,9 +84,21 @@ function typefruit(fruit) {
   const Local = LOCAL.map((item) => {
     return item.fruitName;
   });
-  const Import = IMPORT.map((item) => {
-    return item.fruitName;
+
+  let buahImport = [];
+  const Import = IMPORT.map((item, i) => {
+    buahImport.push(item.fruitName.toLowerCase());
   });
+  buahImport.sort();
+
+  let totalBuahImport = []
+  for (let i = 0; i < buahImport.length; i++) {
+    if (buahImport[i] === buahImport[i + 1]) {
+      
+    } else {
+      totalBuahImport.push(buahImport[i]);
+    }
+  }
 
   let totalLocal = 0;
   let totalImport = 0;
@@ -103,7 +109,10 @@ function typefruit(fruit) {
     totalImport = IMPORT[i].stock + totalImport;
   }
   console.log("Buah local" + " " + Local);
-  console.log("Buah import" + " " + Import);
+  console.log("Buah import" + " " + totalBuahImport);
+
+  //Soal NO 3
+  console.log("---------------NO 3-----------------");
   console.log("Buah local" + " " + totalLocal);
   console.log("Buah import" + " " + totalImport);
 }

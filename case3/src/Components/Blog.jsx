@@ -5,7 +5,7 @@ export default function Blog() {
     <section className="container my-28 mx-auto px-5">
       <div className="flex items-center mb-20 justify-center">
         <h1 className="text-3xl font-bold text-brand-bg2 border-dashed border-b-2 border-brand-bg2 pb-2 px-3">
-          Our Lastest Blog
+          Our Latest Blog
         </h1>
       </div>
       <div className="grid grid-cols-3 gap-10 text-brand-bg2">
